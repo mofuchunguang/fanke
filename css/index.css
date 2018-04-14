@@ -1,0 +1,632 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 32px;
+	background: #F7F7F7;
+	border-bottom: 1px solid #ccc;
+}
+.head_tongping{
+	width: 1200px;
+	height: 32px;
+	margin: 0 auto;
+}
+.head_right{
+	width: 447px;
+	height: 32px;
+	float: right;
+}
+.welcome{
+	width: 144px;
+	height: 32px;
+	font-size: 12px;
+	float: left;
+	margin-right: 20px;
+	line-height: 32px;
+	color: #777;
+}
+a{
+	text-decoration: none;
+	color: #777;
+}
+.login{
+	width: 79px;
+	height: 32px;
+	font-size: 12px;
+	line-height: 32px;
+	float: left;
+	margin-right: 14px;
+}
+.login1{
+	color: #777;
+	margin-right: 6px;
+}
+.login2{
+	color: #777;
+	margin-left: 7px;
+}
+.order{
+	display: block;
+	width: 48px;
+	height: 32px;
+	float: left;
+	font-size: 12px;
+	line-height: 32px;
+	color: #777;
+	margin-right: 16px;
+}
+.order:hover{
+	color: #BD1A22;
+}
+.gonggao{
+	width: 73px;
+	height: 32px;
+	float: left;
+	margin-right: 13px;
+}
+.tu{
+	width: 16px;
+	height: 16px;
+	margin-top: 9px;
+	float: left;
+	margin-right: 9px;
+}
+.zi{
+	font-size: 12px;
+	color: #777;
+	float: left;
+	margin-top: 10px;
+}
+.zi:hover{
+	color: #BD1A22;
+}
+.picture{
+	width: 40px;
+	height:20px;
+	float: left;
+	margin-top: 6px;
+
+}
+.wechat{
+	display: block;
+	width: 18px;
+	height: 20px;
+	float: left;
+	margin-right: 2px;	
+}
+.weibo{
+	display: block;
+	width: 19px;
+	height: 20px;
+	float: right;
+}
+/* 头部结束 */
+/* 导航开始 */
+.daohang{
+	width: 1200px;
+	height: 166px;
+	margin: 0 auto;
+}
+.search{
+	width: 1200px;
+	height: 57px;
+}
+.search_box{
+	width: 438px;
+	height: 29px;
+	margin-top: 28px;
+	float: right;
+}
+.search_left{
+	width: 308px;
+	height: 27px;
+	float: left;
+	margin-right: 22px;
+}
+input{
+	width: 259px;
+	height: 27px;
+	border: 1px solid #cecece;
+	border-right: none;
+}
+button{
+	width: 48px;
+	height: 29px;
+	border: 1px solid #cecece;
+	border-left: none;
+	float: right;
+	background: #BD181E;
+	color: #fff;
+}
+.search_right{
+	display: block;
+	width: 107px;
+	height: 29px;
+	background: #BC1821;
+	float: right;
+	background: url('../img/vanclsprite.png') no-repeat -153px 0;	
+}
+.search_right:hover{
+	background: url('../img/vanclsprite.png') no-repeat -153px -29px;	
+}
+.search_right span{
+	display: block;
+	font-size: 12px;
+	margin-left: 30px;
+	line-height: 29px;
+	color: #FEFEFF;
+}
+.search_right span:hover{
+	color: #B81B22;
+}
+.hot{
+	width: 1200px;
+	height: 28px;
+}
+.hot_box{
+	width: 423px;
+	height: 28px;
+	float: right;
+}
+.hot_box span{
+	font-size: 12px;
+	color: #727272;
+	float: left;
+	line-height: 28px;
+	margin-right: 2px;
+}
+.hot_box a{
+	font-size: 12px;
+	color: #727272;
+	float: left;
+	line-height: 28px;
+	margin-left: 11px;
+}
+.shouye_box{
+	width: 1200px;
+	height: 46px;
+	margin-top: 4px;
+}
+.fanke{
+	display: block;
+	width: 166px;
+	height: 46px;
+	background: url('../img/vanclsprite.png') no-repeat 0 -59px;
+	float: left;
+}
+nav{
+	width: 989px;
+	height: 18px;
+	float: right;
+	margin-top: 28px;
+}
+nav a{
+	display: block;
+	width: 98px;
+	height: 18px;
+	border-right: 1px solid #8b8b8b;
+	float: left;
+	font-size:16px;
+	color: #5d5956;
+	text-align: center;
+}
+nav a:last-child{
+	border-right: none;
+}
+nav a:hover{
+	color: #B81B22;
+}
+/* 导航结束 */
+/* banner开始 */
+.banner{
+	width: 1200px;
+	height: 535px;
+	background: pink;
+	margin: 0 auto;
+}
+/* banner结束 */
+/* 充值开始 */
+.chongzhi{
+	display: block;
+	width: 1200px;
+	height: 134px;
+	background: skyblue;
+	margin: 0 auto;
+	margin-top: 48px;
+}
+.chongzhi img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+/* 充值结束 */
+/* 秒杀开始 */
+.miaosha{
+	width: 1200px;
+	height: 64px;
+	background: yellow;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background: url('../img/miaoshatu.jpg') no-repeat;
+}
+.miaosha-right{
+	display: block;
+	width: 421px;
+	height: 64px;
+	float: right;
+	/* background: rgba(0, 0, 0, 0.3) */
+
+}
+.miaosha-right-text{
+	display: block;
+	width: 217px;
+	height: 64px;
+	/* background: rgba(255, 0, 0, 0.3); */
+	font-size: 17px;
+	color: #fdfbfe;
+	line-height: 64px;
+	float: left;
+
+}
+.time{
+	display: block;
+	width: 181px;
+	height:64px;
+	/* background: rgba(1,1, 1, 0.30);  */
+	float: left;
+}
+.time span{
+	
+	font-size: 14px;
+	color: #6c3137;
+	line-height: 64px;
+	margin-right: 11px;
+
+	margin-left: 29px;
+}
+.time span.last-child{
+	margin-right: 0;
+}
+.time span.first-child{
+	margin-left: 0;
+}
+
+/* 秒杀结束 */
+/* 秒杀列表开始 */
+.miaosha_list{
+	width: 1200px;
+	height: 327px;
+	margin: 0 auto;
+}
+.miaosha_list li{
+	width: 232px;
+	height: 100%;
+	float: left;
+	margin-right: 10px;
+}
+.miaosha_list li:last-child{
+	margin-right: 0;
+}
+.miaosha_list li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.miaosha_img{
+	width: 232px;
+	height: 232px;
+}
+.miaosha_text{
+	width: 100%;
+	height: 42px;
+	margin-top: 11px;
+	font-size: 16px;
+	color: #3c3c3c;
+	font-weight: normal;
+}
+.miaosha_price{
+	height: 19px;
+	width: 100%;
+}
+.miaosha_price h2{
+	width: 100%;
+	height: 20px;
+	color: #d3d3d3;
+	text-decoration: line-through;
+	font-weight: normal;
+	font-size: 15px;
+}
+.miaosha_now{
+	height: 24px;
+	width: 100%;
+}
+.miaosha_now h3{
+	height: 20px;
+	color: #bb2b34;
+	font-weight: normal;
+	font-size: 17px;
+	float: left;
+}
+.miaosha_now h4{
+	color: #333;
+	font-weight: normal;
+	font-size: 15px;
+	float: right;
+}
+.miaosha_now h4 span{
+	font-size: 22px;
+	color: #bb2b34;
+	font-weight: bold;
+}
+/* 秒杀列表结束 */
+/* T恤开始 */
+.txushangxin{
+	width: 1200px;
+	height: 589px;
+	margin:0 auto; 
+}
+.biaoti{
+	width: 1200px;
+	height: 118px;
+	margin-bottom: 23px;
+}
+.txushangxin1{
+	width: 267px;
+	height: 425px;
+	float: left;
+	margin-right: 28px;
+	margin-left: 21px;
+}
+.txushangxin2{
+	width: 267px;
+	height: 425px;
+	float: left;
+	margin-right: 28px;
+}
+.txushangxin3{
+	width: 267px;
+	height: 425px;
+	float: left;
+	margin-right: 28px;
+}
+.txushangxin4{
+	width: 267px;
+	height: 425px;
+	float: left;
+    margin-top: ;
+}
+/* T恤结束 */
+/* 女神节买三免一专场开始  */
+.nvshenjie{
+	width:1200px;
+	height: 1026px;
+	background: pink;
+	margin: 0 auto;
+
+	margin-top: 35px;
+}
+.top1{
+	width: 1200px;
+	height: 97px;
+	background: blue;
+}
+.center1{
+	width:1200px;
+	height: 929px;
+	background: red;
+}
+.center1 a img{
+	float:left;
+}
+/* 女神节买三免一专场结束  */
+/* 服务开始 */
+.fuwu_box{
+	height: 282px;
+	width: 1198px;
+	border: 1px solid #dcdcdc;
+	margin: 0 auto;
+}
+.fuwu{
+	height: 140px;
+	width: 1112px;
+	margin: 33px auto 0;
+}
+.fuwuList{
+	width: 370px;
+	height: 140px;
+	border-right: 1px solid #dcdcdc;
+	float: left;
+}
+.fuwuList:last-child{
+	border-right: none;
+}
+.fuwuList_img{
+	width: 37px;
+	height: 40px;
+	margin: 16px auto 32px;
+}
+.fuwuList_text{
+	width: 156px;
+	height: 32px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	line-height: 32px;
+}
+.fuwuList_7{
+	width: 38px;
+	height: 38px;
+	margin: 21px auto 21px;
+}
+.fuwuList_text2{
+	width: 78px;
+	height: 26px;
+	margin: 0 auto;
+	font-size: 13px;
+	color: #787878;
+	line-height: 26px;
+	text-align: center;
+}
+.fuwuList_text3{
+	width: 122px;
+	height: 26px;
+	margin: 0 auto;
+	font-size: 13px;
+	color: #787878;
+	line-height: 26px;
+	text-align: center;
+}
+.fuwuList_erweima{
+	width: 98px;
+	height: 98px;
+	margin: 4px auto 21px;
+}
+.fuwuList_text4{
+	width: 126px;
+	height: 14px;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #787878;
+	line-height: 14px;
+}
+.fuwuBottom{
+	width: 1109px;
+	height: 28px;
+	background: pink;
+	margin: 38px auto 0;
+}
+.fuwuBottom_box li{
+	font-size: 12px;
+	color: #63616c;
+	float: left;
+	border-right: 1px solid #ccc;
+	padding-right: 65px;
+	padding-left: 65px;
+	line-height: 28px;
+}
+.fuwuBottom_box li:last-child{
+	border-right: none;
+}
+/* 服务结束 */
+.swiper-container {
+    width: 1200px;
+    height: 535px;
+}  
+.footer{
+	width: 100%;
+	height: 158px;
+	border-top: 1px solid #393939;
+	margin-top: 25px;
+}
+.text1{
+	width: 833px;
+	height: 25px;
+	margin: 10px auto 0; 
+	font-size: 11px;
+	line-height: 25px;
+	color: #63616c;
+	text-align: center;
+}
+.text2{
+	width: 168px;
+	height: 25px;
+	margin: 0 auto; 
+	font-size: 11px;
+	line-height: 25px;
+	color: #63616c;
+	text-align: center;
+}
+.tupian{
+	width: 728px;
+	height: 45px;
+	margin: 29px auto 25px;
+}
+.tu1{
+	display: block;
+	width: 112px;
+	height: 42px;
+	background: url("../img/spritesbgtop.png") no-repeat 0 -582px;
+	margin-top: 3px;
+	margin-right: 21px;
+	float: left;
+}
+.tu2{
+	display: block;
+	width: 154px;
+	height: 43px;
+	background: url("../img/spritesbgtop.png") no-repeat  0 -629px;
+	margin-right: 23px;
+	border: 1px solid #c8c8c8;
+	float: left;
+}
+.tu3{
+	display: block;
+	width: 89px;
+	height: 41px;
+	background: url("../img/spritesbgtop.png") no-repeat -3px -675px;
+	margin-top: 4px;
+	margin-right: 25px;
+	float: left;
+}
+.tu4{
+	display: block;
+	width: 95px;
+	height: 38px;
+	background: url("../img/spritesbgtop.png") no-repeat -98px -675px;
+	margin-top: 6px;
+	margin-right: 25px;
+	float: left;
+}
+.tu5{
+	width: 42px;
+	height: 44px;
+	margin-top: 3px;
+	margin-right: 20px;
+	float: left;
+	background: url("../img/spritesbgtop.png") no-repeat -202px -675px;
+}
+.tu6{
+	width: 120px;
+	height: 100%;
+	float: left;
+}
+.tu6 img{
+	display: block;
+	width: 120px;
+	height: 45px;
+
+}
+.guding{
+	width: 73px;
+	height: 205px;
+	border: 1px solid #7f1833;
+	border-bottom: none;
+	position: fixed;
+	bottom: 100px;
+	right: 10px;
+	z-index: 999;
+
+}
+.guding1{
+	display: block;
+	width: 73px;
+	height: 76px;
+	background: url('../img/guding.png') no-repeat -1px -1px; 
+}
+.guding2{
+	display: block;
+	width: 73px;
+	height: 72px;
+	background: url('../img/guding.png') no-repeat -1px -78px; 
+}
+.guding3{
+	display: block;
+	width: 73px;
+	height: 57px;
+	background: url('../img/guding.png') no-repeat -1px -149px; 
+}
